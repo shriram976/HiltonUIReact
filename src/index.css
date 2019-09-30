@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #b7b9e8;
+}
+* {
+  box-sizing: border-box;
+}
+header h1 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.room-section {
+  display: inline-block;
+  border: 5px solid #eee;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #fff;
+}
+.room-section-header {
+  padding: 5px 3px 5px 3px;
+  background-color: #eee;
+}
+.guest-info {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+}
+.guest-info[disabled] {
+  background-color: #eee;
+}
+.adult-section, .child-section {
+  flex: 50% 0 0;
+  align-content: center;
+  justify-content: center;
+  padding-left: 5px;
+}
+.hotel-rm-selection {
+  padding: 30px;
+}
+.submit-btn {
+  padding: 10px;
+  margin-left: 30px;
+}
