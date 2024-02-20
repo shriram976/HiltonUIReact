@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #b7b9e8;
+  background-color: #4d1edc;
 }
 * {
   box-sizing: border-box;
@@ -41,7 +41,12 @@ footer {
 .hotel-rm-selection {
   padding: 30px;
 }
+.submit-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 .submit-btn {
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
